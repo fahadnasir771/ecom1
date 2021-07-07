@@ -401,8 +401,8 @@
                                         <div class="checkbox">
                                             {{-- <label class="checkbox-inline" for="1"><input name="updates" id="1" type="checkbox"> Check Payments</label> --}}
                                             <form-group>
-                                                <input name="payment_method"  type="radio" value="cod"> <label> Cash On Delivery</label><br>
-                                                <input name="payment_method"  type="radio" value="paypal"> <label> PayPal</label> 
+                                                <input name="payment_method"  type="radio" value="cod" checked> <label> Cash On Delivery</label><br>
+                                                {{-- <input name="payment_method"  type="radio" value="paypal"> <label> PayPal</label>  --}}
                                             </form-group>
                                             
                                         </div>
@@ -410,11 +410,11 @@
                                 </div>
                                 <!--/ End Order Widget -->
                                 <!-- Payment Method Widget -->
-                                <div class="single-widget payement">
+                                {{-- <div class="single-widget payement">
                                     <div class="content">
                                         <img src="{{('backend/img/payment-method.png')}}" alt="#">
                                     </div>
-                                </div>
+                                </div> --}}
                                 <!--/ End Payment Method Widget -->
                                 <!-- Button Widget -->
                                 <div class="single-widget get-button">
